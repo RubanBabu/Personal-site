@@ -1,0 +1,95 @@
+
+html,
+body {
+  height: 100%;
+  background-color: #;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+.cover-heading {
+  font-family: 'Arial', sans-serif;
+  font-weight: 900;
+  color: #222;
+}
+
+.lead {
+  color: #222;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+u {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+u:hover {
+  font-weight: 600;
+  color:#222;
+}
+
+.cur-title {
+  color: #222;
+  font-weight: 600;
+}
+
+.cur-desc {
+  color: #222;
+  font-weight: 300;
+  font-size: 1.4rem;
+  float: left;
+}
+
+.cur-det {
+  color: #222;
+  font-weight: 300;
+  font-size: 1.4rem;
+  float: left;
+}
+
+.currently {
+
+}
+
+#circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+    }
