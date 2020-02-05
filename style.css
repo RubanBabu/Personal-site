@@ -2,7 +2,7 @@
 html,
 body {
   height: 100%;
-  background-color: #;
+  background-color: #092847;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  color: #fff;
+  color: #092847;
 }
 
 .cover-container {
@@ -40,16 +40,19 @@ body {
 
 
 .cover-heading {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
-  color: #222;
+  color: white;
+  padding-top: 100px;
 }
 
 .lead {
-  color: #222;
-  font-weight: 300;
-  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
   line-height: 2.2rem;
+  opacity: 60%;
 }
 
 u {
@@ -57,39 +60,39 @@ u {
   font-weight: 400;
 }
 
-u:hover {
-  font-weight: 600;
-  color:#222;
-}
-
 .cur-title {
-  color: #222;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #CDBEA3;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .cur-desc {
-  color: #222;
+  font-family: 'Poppins', sans-serif;
+  color: white;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   float: left;
 }
 
 .cur-det {
-  color: #222;
+  font-family: 'Poppins', sans-serif;
+  color: white;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   float: left;
+  opacity: 60%;
 }
 
 .currently {
 
 }
 
-#circle {
-      width: 50px;
-      height: 50px;
-      -webkit-border-radius: 25px;
-      -moz-border-radius: 25px;
-      border-radius: 25px;
-      background: red;
-    }
+a {
+  color: #3370FF;
+  font-weight: 500;
+}
+
+a :hover {
+  color: 
+}
